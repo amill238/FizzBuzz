@@ -35,6 +35,12 @@ public class FizzBuzzCalculationsTest {
         assertEquals("19" , result);
     }
     
+    @Test
+    public void testLogic105() {
+        String result = FizzBuzzCalculations.logic(105);
+        assertEquals("FizzBuzz" , result);
+    }
+    
     /**
      * Test of logic method, of class FizzBuzzCalculations.
      */
